@@ -79,7 +79,7 @@ return (
       <div className="content">
         <ul className="motto">
           <li>
-            <span>✔</span> Build 4 Homes worth $1.5 Million each
+            <span style={{color:'red'}}>✔</span> Build 4 Homes worth $1.5 Million each
           </li>
           <li>
             <span>✔</span> Private &amp; Central Location
