@@ -1,0 +1,278 @@
+.navbar {
+  height: 70px;
+  width: 100%;
+  background: linear-gradient(
+    90deg,
+    rgb(9, 115, 141) 7%,
+    rgb(33, 93, 172) 31%,
+    rgb(10, 67, 133) 91%
+  );
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+}
+
+.right {
+  display: flex;
+}
+
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navItem {
+  list-style: none;
+  margin: 10px;
+  opacity: 1;
+}
+.navItem > a {
+  color: #eaeff1;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navItem > a > span {
+  color: #eaeff1;
+  font-size: 18px;
+  text-decoration: none;
+}
+.navItem > a :hover {
+  color: #a2b9c3;
+  cursor: pointer;
+  font-size: 16px;
+}
+.navItem > a > span :hover {
+  color: #a2b9c3;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.navItem > a > i {
+  margin: 5px;
+}
+
+.main {
+  height: 91.5vh;
+  width: 100%;
+  margin-top: -20px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/default.jpg') center;
+  background-size: cover;
+}
+/* ,url('../images/default.jpg' */
+
+.main > .container > h1 {
+  font-size: 60px;
+  text-align: center;
+  color: rgb(14, 100, 142);
+  background: white;
+  border-radius: 10px;
+  opacity: 1;
+}
+.main > .container > h2 {
+  text-align: center;
+  font-size: 50px;
+  color: #00ff7f;
+  opacity: 1;
+}
+.main > .container > .content {
+  opacity: 1;
+  color: #000;
+  width: 100%;
+}
+
+.main > .container > .content > ul > li {
+  color: #fff;
+  font-size: 20px;
+  line-height: 1.5;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 30%;
+  padding: 5px;
+  font-weight: 500;
+}
+.main > .container > .content > ul > li > span {
+  color: #00fa9a;
+  font-size: 30px;
+  margin: 5px;
+}
+.main > .container > .content > .subscribe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  background: linear-gradient(
+    90deg,
+    rgb(9, 115, 141) 7%,
+    rgb(33, 93, 172) 31%,
+    rgb(10, 67, 133) 91%
+  );
+  opacity: 1;
+  border-radius: 5px;
+}
+.main > .container > .content > .subscribe > .info-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 20px;
+  color: #fff;
+  opacity: 1;
+}
+
+.main > .container > .content > .subscribe > .info-text > .span {
+  display: flex;
+  white-space: pre-wrap;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+  font-size: 18px;
+  color: #fff;
+  opacity: 1;
+}
+
+@media screen and (max-width: 1400px) {
+  .main > .container > h1 {
+    padding: 5px;
+    font-size: 40px;
+  }
+  .main > .container > h2 {
+    font-size: 30px;
+  }
+  .main > .container > .content > ul > li {
+    color: #fff;
+    line-height: 1;
+  }
+  .main > .container > .content > ul > li > span {
+    font-size: 30px;
+    color: #00ff7f;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .main > .container > h1 {
+    padding: 5px;
+  }
+  .main > .container > .content > ul > li {
+    color: #fff;
+    line-height: 1.5;
+    margin-left: 20%;
+  }
+  .main > .container > .content > ul > li > span {
+    font-size: 30px;
+    color: #00ff7f;
+  }
+
+  .main > .container > .content > .subscribe {
+    border-radius: 10px;
+  }
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .main > .container > h1 {
+    font-size: 30px;
+  }
+  .main > .container > h2 {
+    font-size: 27px;
+  }
+  .main > .container > .content > ul > li {
+    color: #fff;
+    line-height: 1.5;
+    margin-left: 20%;
+  }
+  .main > .container > .content > ul > li > span {
+    font-size: 30px;
+    color: #00ff7f;
+  }
+
+  .main > .container > .content > .subscribe {
+    border-radius: 20px;
+  }
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 18px;
+  }
+  .navbarContainer {
+    justify-content: center;
+  }
+  .navbarContainer > .left {
+    display: block;
+    visibility: hidden;
+  }
+  .main {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 15px;
+  }
+  .main > .container > .content > .subscribe > .info-text a {
+    font-size: 17px;
+  }
+  .main > .container > .content > ul > li {
+    margin-left: 5%;
+  }
+
+  .main > .container > .content > ul > li > span {
+    color: #00ff7f;
+    /* margin-left: 12px; */
+  }
+}
+@media screen and (max-width: 513px) {
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 13px;
+  }
+  .main > .container > .content > .subscribe > .info-text a {
+    font-size: 15px;
+  }
+  .main > .container > .content > ul > li {
+    line-height: 1.5;
+    margin-left: 0%;
+  }
+
+  .main > .container > .content > ul > li > span {
+    color: #00ff7f;
+  }
+}
+@media screen and (max-width: 462px) {
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 10px;
+  }
+  .main > .container > .content > .subscribe > .info-text a {
+    font-size: 13px;
+  }
+  .main > .container > .content > ul > li {
+    line-height: 1.5;
+    margin-left: 0%;
+  }
+
+  .main > .container > .content > ul > li > span {
+    color: #00ff7f;
+  }
+}
+@media screen and (max-width: 410px) {
+  .main > .container > .content > .subscribe > .info-text {
+    font-size: 9px;
+  }
+  .main > .container > .content > .subscribe > .info-text a {
+    font-size: 12px;
+  }
+  .main > .container > .content > ul > li {
+    line-height: 1.5;
+    margin-left: 0%;
+  }
+
+  .main > .container > .content > ul > li > span {
+    color: #00ff7f;
+  }
+}
