@@ -62,10 +62,10 @@
   width: 100%;
   margin-top: -20px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('./images/default.jpg') center;
+    url('./images/default1.jpg') center;
   background-size: cover;
 }
-/* ,url('../images/default.jpg' */
+/* ,url('../images/default1.jpg' */
 
 .main > .container > h1 {
   font-size: 60px;
