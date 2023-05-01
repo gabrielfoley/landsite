@@ -1,5 +1,5 @@
 .navbar {
-  height: 70px;
+  height: 60px;
   width: 100%;
   background: linear-gradient(
     90deg,
@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 6px;
+  padding: 3px;
 }
 
 .right {
@@ -212,7 +212,7 @@
     visibility: hidden;
   }
   .main {
-    height: 98vh;
+    height: 127vh;
   }
 }
 
@@ -288,7 +288,8 @@
     font-size: 9px;
   }
   .main > .container > .content > .subscribe > .info-text a {
-    font-size: 12px;
+    font-size: 18px;
+    line-height: 1.3;
   }
   .main > .container > .content > .subscribe > .info-text{
     flex-direction: column;

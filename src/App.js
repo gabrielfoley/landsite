@@ -60,7 +60,7 @@ return (
             </a>
           </li>
           <li className="navItem">
-            <a href="tel:510-915-3235" target="_blank" rel="noreferrer">
+            <a href="tel:510-915-3235">
               <i className="fa fa-phone" />
               Call
             </a>
@@ -80,9 +80,9 @@ return (
       <h1 className="logo">ATTENTION ALL CONTRACTORS!</h1>
       <h2 className="logo2">4 LOTS! - 3/4 Acres each In El Sobrante, CA</h2>
       <div className="content">
-        <ul className="motto">
+        <ul>
           <li>
-            <span><VerifiedUserSharpIcon fontSize="large"/></span> Build 4 Homes worth $1.5 Million each
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Build FOUR $1.5 Homes!
           </li>
           <li>
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Private &amp; Central Location
@@ -90,8 +90,8 @@ return (
           <li>
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Views of the Bay Area
           </li>
-          <li>
-            <span><VerifiedUserSharpIcon fontSize="large"/></span> Completed Building &amp; Subdivision Application
+          <li >
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Final Building Application
           </li>
           <li>
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Complete Tentative Map
@@ -100,7 +100,7 @@ return (
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Complete Architectural Plans
           </li>
           <li>
-            <span><VerifiedUserSharpIcon fontSize="large"/></span> Looking for Contractor/Partner or Buyer
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Looking for Contractor/Partner!
           </li>
           <li>
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Ready to build!
@@ -109,7 +109,7 @@ return (
         <div className="subscribe">
           <h5 className="info-text">
             <span className="span">
-              <a href="tel:510-915-3235" target="_blank" rel="noreferrer">
+              <a href="tel:510-915-3235">
                 CALL NOW (510) 915-3235
               </a>
             </span>
