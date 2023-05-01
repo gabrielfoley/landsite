@@ -60,7 +60,7 @@ return (
             </a>
           </li>
           <li className="navItem">
-            <a href="tel:5109153235" class="call" target="_blank" rel="noreferrer">
+            <a href="tel:510-915-3235" target="_blank" rel="noreferrer">
               <i className="fa fa-phone" />
               Call
             </a>
@@ -109,7 +109,7 @@ return (
         <div className="subscribe">
           <h5 className="info-text">
             <span className="span">
-              <a href="tel:5109153235" target="_blank" rel="noreferrer">
+              <a href="tel:510-915-3235" target="_blank" rel="noreferrer">
                 CALL NOW (510) 915-3235
               </a>
             </span>
