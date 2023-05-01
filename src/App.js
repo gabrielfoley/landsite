@@ -1,5 +1,8 @@
 import './bootstrap.css';
 import './coming.css';
+import VerifiedUserSharpIcon from '@mui/icons-material/VerifiedUserSharp';
+
+
 
 function App() {
 
@@ -79,28 +82,28 @@ return (
       <div className="content">
         <ul className="motto">
           <li>
-            <span style={{color:'red'}}>✔</span> Build 4 Homes worth $1.5 Million each
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Build 4 Homes worth $1.5 Million each
           </li>
           <li>
-            <span>✔</span> Private &amp; Central Location
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Private &amp; Central Location
           </li>
           <li>
-            <span>✔</span> Views of the Bay Area
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Views of the Bay Area
           </li>
           <li>
-            <span>✔</span> Completed Building &amp; Subdivision Application
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Completed Building &amp; Subdivision Application
           </li>
           <li>
-            <span>✔</span> Complete Tentative Map
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Complete Tentative Map
           </li>
           <li>
-            <span>✔</span> Complete Architectural Plans
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Complete Architectural Plans
           </li>
           <li>
-            <span>✔</span> Looking for Contractor/Partner or Buyer
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Looking for Contractor/Partner or Buyer
           </li>
           <li>
-            <span>✔</span> Ready to build!
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Ready to build!
           </li>
         </ul>
         <div className="subscribe">
