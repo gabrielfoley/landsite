@@ -60,7 +60,7 @@ return (
             </a>
           </li>
           <li className="navItem">
-            <a href="tel:5109153235" target="_blank" rel="noreferrer">
+            <a href="tel:5109153235" class="call" target="_blank" rel="noreferrer">
               <i className="fa fa-phone" />
               Call
             </a>
