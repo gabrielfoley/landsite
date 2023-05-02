@@ -15,6 +15,7 @@
   align-items: center;
   width: 100%;
   padding: 3px;
+  margin-top: 1rem;
 }
 
 .right {
@@ -34,7 +35,7 @@
 }
 .navItem > a {
   color: #eaeff1;
-  font-size: 18px;
+  font-size: 13.8px;
   text-decoration: none;
 }
 .navItem > a > span {
@@ -54,7 +55,7 @@
 }
 
 .navItem > a > i {
-  margin: 10px;
+  margin: 8px;
 }
 
 .main {

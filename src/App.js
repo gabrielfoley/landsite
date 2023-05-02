@@ -9,6 +9,7 @@ function App() {
 
 return (
 <>
+<div>
   <meta charSet="utf-8" />
   <meta httpEquiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta
@@ -41,7 +42,7 @@ return (
             data-size=""
           >
             <i
-              style={{ fontSize: 18, color: "#fff", margin: 7 }}
+              style={{ fontSize: 19, color: "#fff", margin: 9.5 }}
               className="fa fa-facebook-square"
             />
             <a
@@ -127,6 +128,7 @@ return (
     <div className="footer"></div>
   </div>
   <div id="fb-root" />
+  </div>
 </>
 
 )
