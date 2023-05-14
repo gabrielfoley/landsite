@@ -83,7 +83,7 @@ return (
       <div className="content">
         <ul>
           <li>
-            <span><VerifiedUserSharpIcon fontSize="large"/></span> Build FOUR $1.5 Homes!
+            <span><VerifiedUserSharpIcon fontSize="large"/></span> Build 4 Two-million $ Homes!
           </li>
           <li>
             <span><VerifiedUserSharpIcon fontSize="large"/></span> Private &amp; Central Location
